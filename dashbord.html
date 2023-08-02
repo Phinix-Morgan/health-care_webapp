@@ -2,7 +2,6 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="two.css">
 <link rel="stylesheet" type="text/css" href="dashbord.css">
 <link rel="stylesheet" href="bootstrap-5.3.0-alpha2-dist/css/bootstrap.min.css">
 <script src="bootstrap-5.3.0-alpha2-dist/js/bootstrap.min.js"></script>
@@ -21,19 +20,31 @@ href="icon3.png">
         <li><img src="web-analytics_1055679.png" alt="Image description"><a  href="moniter1">Moniter</a></li>
         <li><img src="10486704.png" alt="Image description"><a href="">About</a></li>
         <li><img src="5078105.png" alt="Image description"><a  href="">Logout</a></li>
-    </ul>
-    
+    </ul> 
 </div>
-<form action="bmicalculae.php">
-    <div class="bmi">
-<input type="text" id="weiht" placeholder="    enter weight(kg) " >
-<input type="text" id="height" placeholder="    enter height (cm) " >
-
-</div>
-</form>
-  <script>
-
+<div class="main3">
+<div class="meal">
+    <label>
+        <input type="checkbox" id="myCheckbox"> Option 1
+      </label>
     
-  </script>
+      <div id="content" style="display: box;">
+        This content will be shown when the checkbox is not checked.
+      </div>
+    
+      <script>
+        const checkbox = document.getElementById('myCheckbox');
+        const contentDiv = document.getElementById('content');
+    
+        checkbox.addEventListener('change', function () {
+          if (this.checked) {
+            contentDiv.style.display = 'none'; // Hide content when checkbox is checked
+          } else {
+            contentDiv.style.display = 'block'; // Show content when checkbox is not checked
+          }
+        });
+      </script>  
+</div>
+</div>
 </body>
 </html>
