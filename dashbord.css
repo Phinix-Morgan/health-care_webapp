@@ -1,27 +1,29 @@
 *{
-    margin: 0%;
-    padding: 0%;
+	margin: 0px;
+	padding: 0px;
 }
-
 .sidebar {
     position: relative;
-    height: 1000px;
+    height: 700px;
     background-color:rgb(28, 33, 49);
     width: 150px;
 }
 .sidebar ul {
     padding-top:50px;
 	 width: 150px;
+	padding-left: 0px;
+	
 }
 .sidebar ul li {
     margin-bottom: 40px;
     padding-top:10px;
 	list-style:none;
-	 width: 150px;
+	width: 150px;
+	
 }
 .sidebar ul li img {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 35px;
     border-radius: 100px;
     padding-left:10px
 }
@@ -29,28 +31,11 @@
     color:white;
     text-decoration:none;
     position:relative;
-    bottom:10px;
+    bottom:0px;
     left:15px;   
 }
-.bmi {
-    display: flex;
-    flex-direction: column;
-    width: 210px;
-    height: 280px;
-    position: absolute;
-    left: 300px;
-    border-radius: 20px;
-    padding-top: 60px;
-    background-color: blueviolet;
-    top: 50px;
-}
-.bmi input {
-    height: 35px;
-    border-radius: 10px;
-    border: none;
-    background-color: darkgrey;
-    margin: 10px;
-}
+
+
 #btn11\ {
     border-radius: 10px;
     height: 30px;
@@ -58,4 +43,12 @@
     width: 190px;
     margin-left: 10px;
     border: none;
+}
+.main3 {
+    background-color: #238080e6;
+    position: absolute;
+    left: 150px;
+    top: 0px;
+    width: 1199px;
+    height: 700px;
 }
